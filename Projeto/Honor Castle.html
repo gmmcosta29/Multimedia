@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <title>Honor Castle</title>
-    <script type="text/javascript" src="code/main.js" defer="true"> </script>
-    <style>
-        #myCanvas{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
+    <script type="text/javascript" src="code/main.js"> </script>
+    <link rel = 'stylesheet' href = 'css/main.css'>
 </head>
-<body>
-    <canvas id = "myCanvas" width="800" height="600" ></canvas>
-</body>
+    <body>
+        <img id="fundo"><img src="resources/Menu/Sprite-background.png">
+        <nav class="botoes">
+            <button id='historia'><img src="resources/Menu/Sprite-Historia.png"></button>
+            <button id='leaderboard'><img src="resources/Menu/Sprite-Leaderboard.png"></button>
+            <button id='options'><img src="resources/Menu/Sprite-options.png"></button>
+            <button id='help'><img src="resources/Menu/Sprite-help.png"></button>
+            <button id="creditos"> <img src="resources/Menu/Sprite-credits.png"></button>
+            <button id='exit'><img src="resources/Menu/Sprite-exit.png"></button>
+        </nav>
+    </body>
 </html>
